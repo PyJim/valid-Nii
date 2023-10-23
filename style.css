@@ -336,7 +336,17 @@ body{
     height: 400px;
     text-align: justify;
 }
-
+@media(max-width: 468px){
+    .myCollection .whatIdo{
+        width: 300px;
+        height: auto;
+    }
+}
+@media(max-width: 310px){
+    .myCollection .whatIdo{
+        width: 250px;
+    }
+}
 .myCollection .swiper-container{
     background: #ECDFAB;
 }
@@ -371,16 +381,6 @@ body{
 @media(max-width: 850px){
     .whatIdo{
         margin-top: 50px;
-    }
-}
-@media(max-width: 468px){
-    .whatIdo{
-        width: 300px;
-    }
-}
-@media(max-width: 310px){
-    .whatIdo{
-        width: 250px;
     }
 }
 .whatIdo .title{
