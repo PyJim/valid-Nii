@@ -387,11 +387,10 @@ body{
     height: 450px;
     align-items: center;
     justify-content: center;
-    margin-top: -50px;
 }
 .myCollection .swiper-container .swiper-wrapper{
-    height: 100%;
     width: 100%;
+    align-items: center;
 }
 @media(max-width: 1040px){
     .myCollection .swiper-container{
