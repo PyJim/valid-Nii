@@ -400,6 +400,7 @@ body{
     align-items: center;
     display: flex;
     padding: 0;
+    right: -100%;
 }
 .myCollection .swiper-slide{
     display: flex;
@@ -806,7 +807,7 @@ body{
 }
 @media(max-width: 550px){
     #testimonial .swiper-wrapper{
-        right: -100%;
+        right: -102%;
     }
 }
 .swiper-button-next,
