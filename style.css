@@ -333,6 +333,7 @@ body{
 
 .myCollection .whatIdo{
     width: 400px;
+    height: 400px;
     text-align: justify;
 }
 
