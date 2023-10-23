@@ -143,6 +143,7 @@ body{
     justify-content: center;
     height: auto;
     padding: 100px;
+    overflow: hidden;
 
 }
 .hello img{
@@ -157,35 +158,29 @@ body{
 @media(max-width: 900px){
     .hello img{
         margin-top: -80px;
-    }
-}
-@media(max-width: 750px){
-    .hello img{
-        width: 650px;
-        margin-top: -180px;
-    }
-    .hello{
-        overflow: hidden;
-    }
-}
-@media(max-width: 450px){
-    .hello img{
         width: 600px;
-        margin-top: -180px;
-    }
-    .hello{
-        overflow: hidden;
     }
 }
-@media(max-width: 350px){
+@media(max-width: 700px){
     .hello img{
-        width: 400px;
-        margin-top: -180px;
-    }
-    .hello{
-        overflow: hidden;
+        margin-top: -80px;
+        width: 500px;
     }
 }
+@media(max-width: 600px){
+    .hello img{
+        margin-top: -80px;
+        width: 400px;
+    }
+}
+@media(max-width: 500px){
+    .hello img{
+        margin-top: -80px;
+        width: 400px;
+    }
+}
+
+
 #collection, .myCollection{
     width: 100%;
     height: auto;
@@ -193,23 +188,14 @@ body{
     background-position: 40% 100%;
     background-repeat: no-repeat;
     background-size: 200% 150%;
-    margin-top: -200px;
+    margin-top: -100px;
 }
 @media(max-width: 900px){
     #collection, .myCollection{
-        margin-top: -220px;
+        margin-top: -120px;
     }
 }
-@media(max-width: 750px){
-    #collection, .myCollection{
-        margin-top: -300px;
-    }
-}
-@media(max-width: 450px){
-    #collection, .myCollection{
-        margin-top: -350px;
-    }
-}
+
 .myCollection, .Collection{
     margin-top: 0;
     display: flex;
@@ -384,6 +370,16 @@ body{
 @media(max-width: 850px){
     .whatIdo{
         margin-top: 50px;
+    }
+}
+@media(max-width: 468px){
+    .whatIdo{
+        width: 300px;
+    }
+}
+@media(max-width: 310px){
+    .whatIdo{
+        width: 250px;
     }
 }
 .whatIdo .title{
