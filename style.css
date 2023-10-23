@@ -162,7 +162,7 @@ body{
 @media(max-width: 750px){
     .hello img{
         width: 650px;
-        margin-top: -280px;
+        margin-top: -180px;
     }
     .hello{
         overflow: hidden;
@@ -171,7 +171,7 @@ body{
 @media(max-width: 450px){
     .hello img{
         width: 600px;
-        margin-top: -280px;
+        margin-top: -180px;
     }
     .hello{
         overflow: hidden;
@@ -180,7 +180,7 @@ body{
 @media(max-width: 350px){
     .hello img{
         width: 400px;
-        margin-top: -280px;
+        margin-top: -180px;
     }
     .hello{
         overflow: hidden;
