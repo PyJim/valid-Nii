@@ -197,17 +197,17 @@ body{
 }
 @media(max-width: 900px){
     #collection, .myCollection{
-        margin-top: -320px;
+        margin-top: -220px;
     }
 }
 @media(max-width: 750px){
     #collection, .myCollection{
-        margin-top: -400px;
+        margin-top: -300px;
     }
 }
 @media(max-width: 450px){
     #collection, .myCollection{
-        margin-top: -450px;
+        margin-top: -350px;
     }
 }
 .myCollection, .Collection{
