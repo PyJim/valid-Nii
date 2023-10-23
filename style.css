@@ -439,7 +439,7 @@ body{
     color: white;
 }
 .myCollection .swiper-slide img{
-    height: 450px;
+    height: 100%;
 }
 .myCollection .swiper-pagination{
     margin-top: 50px;
