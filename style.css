@@ -308,10 +308,12 @@ body{
     align-items: center;
     flex-direction: column;
     width: 100%;
+    height: 100%;
 }
 
 .swiper-slide img {
     width: 100%;
+    height: 100%;
     border-radius: 50px;
     cursor: grab;
 }
@@ -382,6 +384,14 @@ body{
 }
 .myCollection .swiper-container{
     width: 450px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+}
+.myCollection .swiper-container .swiper-wrapper{
+    height: 100%;
+    width: 100%;
 }
 @media(max-width: 1040px){
     .myCollection .swiper-container{
@@ -391,6 +401,7 @@ body{
 @media(max-width: 500px){
     .myCollection .swiper-container{
         width: 350px;
+        height: 350px;
     }
     .whatIdo p{
         font-size: 15px;
@@ -399,6 +410,7 @@ body{
 @media(max-width: 380px){
     .myCollection .swiper-container{
         width: 250px;
+        height: 250px;
     }
     .whatIdo p{
         font-size: 13px;
