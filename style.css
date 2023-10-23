@@ -379,18 +379,34 @@ body{
 .whatIdo{
     margin: 0 30px;
 }
+@media(max-width: 850px){
+    .whatIdo{
+        margin-top: 50px;
+    }
+}
 .whatIdo .title{
     text-align: center;
 }
 .myCollection .swiper-container{
     width: 450px;
     height: 450px;
+    display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px 0;
 }
 .myCollection .swiper-container .swiper-wrapper{
     width: 100%;
     align-items: center;
+    display: flex;
+    padding: 0;
+}
+.myCollection .swiper-slide{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
 }
 @media(max-width: 1040px){
     .myCollection .swiper-container{
@@ -427,7 +443,7 @@ body{
     left: 0;
     background-color: rgba(0,0,0,.5);
     border-radius: 20px;
-    margin-top: -100px;
+    margin-top: -130px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -779,9 +795,20 @@ body{
 }
 #testimonial .swiper-wrapper{
     justify-content: center;
-    overflow: hidden;
+    width: 100vw;
+    right: 0;
 }
 
+@media(max-width: 1015px){
+    #testimonial .swiper-wrapper{
+        right: -22%;
+    }
+}
+@media(max-width: 550px){
+    #testimonial .swiper-wrapper{
+        right: -100%;
+    }
+}
 .swiper-button-next,
 .swiper-button-prev {
     position: relative;
