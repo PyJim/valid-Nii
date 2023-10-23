@@ -757,7 +757,7 @@ body{
     width: 100vw;
     display: flex;
     justify-content: center;
-    overflow: visible;
+    overflow: hidden;
     margin-top: 50px;
 }
 #testimonial .swiper-slide{
@@ -796,6 +796,7 @@ body{
 #testimonial .swiper-wrapper{
     justify-content: center;
     width: 100vw;
+    overflow: hidden;
 }
 
 .swiper-button-next,
