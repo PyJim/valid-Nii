@@ -850,3 +850,183 @@ body{
         justify-content: center;
     }
 }
+
+#contact{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+#contact .contactContainer{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    margin: 40px 0;
+    padding: 0 120px;
+    gap: 20px;
+}
+@media(max-width: 1000px){
+    #contact .contactContainer{
+        padding: 0;
+    }
+}
+@media(max-width: 745px){
+    #contact .contactContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+#contact .contactContainer .contactInfo{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+@media(max-width: 745px){
+    #contact .contactContainer .contactInfo{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+}
+#contact .contactContainer .contactInfo .separated{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+#contact .contactContainer .contactInfo .separated .socials{
+    width: 100%;
+    display: flex;
+}
+@media(max-width: 745px){
+    #contact .contactContainer .contactInfo .separated .socials{
+        justify-content: center;
+    }
+}
+#contact .contactContainer .contactInfo .separated .socials .socialIcons{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+@media(max-width: 745px){
+    #contact .contactContainer .contactInfo .separated .socials .socialIcons{
+        justify-content: center;
+    }
+}
+#contact .contactContainer .contactForm{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 50px;
+    border: 2px solid #1B7754;
+    padding: 10px 30px;
+    row-gap: 30px;
+
+}
+@media(max-width: 745px){
+    #contact .contactContainer .contactForm{
+        margin-top: 50px;
+        width: 100%;
+    }
+}
+#contact .contactContainer .contactForm .nameEmail{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width: 431px){
+    #contact .contactContainer .contactForm .nameEmail{
+        flex-direction: column;
+    }
+}
+@media(max-width: 431px){
+    #contact .contactContainer .contactForm .nameEmail input{
+        width: 100%;
+    }
+}
+#contact .contactContainer .contactForm .message{
+    width: 100%;
+}
+#contact .contactContainer .contactForm input,
+#contact .contactContainer .contactForm textarea{
+    width: 45%;
+    border: none;
+    border-bottom: 1px solid #333;
+    height: 50px;
+    background-color: transparent;
+    resize: none;
+}
+#contact .contactContainer .contactForm .message textarea{
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+#contact .contactContainer .contactForm .msgBody{
+    height: 120px;
+    
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+#contact .contactContainer .contactForm .send{
+    padding: 10px 20px;
+    background-color: rgb(8, 139, 132);
+    color: white;
+    outline: none;
+    border-radius: 10px;
+    margin-top: -50px;
+}
+@media(max-width: 431px){
+    #contact .contactContainer .contactForm .send{
+        padding: 4px 8px;
+    }
+}
+#contact .contactContainer .contactForm .send a{
+    color: white;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+#contact .contactContainer .contactForm .socialIcons i{
+    color: #000;
+}
+
+#getInTouch{
+    font-size: 30px;
+}
+#contact p{
+    font-size: 15px;
+}
+#contact .introText{
+    text-align: center;
+}
+#contactInformation{
+    margin-top: 10px;
+}
+#contact a{
+    color: #000;
+}
+#contact span{
+    color: red;
+}
+#contact textarea::placeholder, #contact input::placeholder{
+    opacity: 1;
+    color: black;
+}
+#messageTitle{
+    color: #1B7754;
+}
+
