@@ -318,20 +318,21 @@
                     </div>
                 </div>
             </div>
-            <div class="contactForm">
+            <form action="https://formsubmit.co/validniidraws@gmail.com" method="POST" class="contactForm">
                 <div class="nameEmail">
-                    <input type="text" placeholder="Name"/>
-                    <input type="text" placeholder="Email"/>
+                    <input type="text" placeholder="Name" name="name"/>
+                    <input type="text" placeholder="Email" name="email"/>
                 </div>
                 <div class="message">
-                    <textarea name="text" placeholder="Message Subject"></textarea>
+                    <textarea name="subject" placeholder="Message Subject"></textarea>
                     <p id="messageTitle">Message</p>
                     <textarea class="msgBody" name="message" placeholder="Your message here"></textarea>
                 </div>
                 <div class="send">
                     <a href="">Send Message</a>
                 </div>
-            </div>
+                <input type="text" name="_honey" style="display:none">
+            </form>
         </div>
     </div>
     <div id="footer">
