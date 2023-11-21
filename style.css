@@ -1034,5 +1034,5 @@ textarea:focus, input:focus{
     border: none;
 }
 input:-internal-autofill-selected {
-    background: transparent;
+    background: transparent !important;
 }
