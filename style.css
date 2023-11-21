@@ -1033,3 +1033,6 @@ textarea:focus, input:focus{
     outline: none;
     border: none;
 }
+input:-internal-autofill-selected {
+    background: transparent;
+}
