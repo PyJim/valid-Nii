@@ -1029,4 +1029,7 @@ textarea:focus, input:focus{
 #messageTitle{
     color: #1B7754;
 }
-
+#contact button{
+    outline: none;
+    border: none;
+}
